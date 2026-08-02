@@ -10,6 +10,24 @@
  * ------------------------------------------------------------------
  */
 
+// --- استدعاء الصور هنا في بداية الملف ---
+import img1 from './assets/placeholder-1.jpg';
+import img2 from './assets/placeholder-2.jpg';
+import img3 from './assets/placeholder-3.jpg';
+import img4 from './assets/placeholder-4.jpg';
+import img5 from './assets/placeholder-5.jpg';
+import img6 from './assets/placeholder-6.jpg';
+import img7 from './assets/placeholder-7.jpg';
+import img8 from './assets/placeholder-8.jpg';
+import img9 from './assets/placeholder-9.jpg';
+import img10 from './assets/placeholder-10.jpg';
+import img11 from './assets/placeholder-11.jpg';
+import img12 from './assets/placeholder-12.jpg';
+import img13 from './assets/placeholder-13.jpg';
+import img14 from './assets/placeholder-14.jpg';
+import img15 from './assets/placeholder-15.jpg';
+import img16 from './assets/placeholder-16.jpg';
+
 const clientConfig = {
   // ---------------------------------------------------------------
   // 1. THEME — colors referenced via CSS custom properties in index.css
@@ -62,8 +80,8 @@ const clientConfig = {
     ],
     signOff: 'Always here for you.',
     images: [
-      { src: '/src/assets/placeholder-1.jpg', alt: 'A warm shared memory, close together and smiling' },
-      { src: '/src/assets/placeholder-2.jpg', alt: 'A playful candid selfie' },
+      { src: img1, alt: 'A warm shared memory, close together and smiling' },
+      { src: img2, alt: 'A playful candid selfie' },
     ],
     nextLabel: 'Next',
   },
@@ -87,18 +105,18 @@ const clientConfig = {
     // Order matters: this array is mapped directly, in order, onto the
     // 10 named grid areas (a–j) defined in PhotoCollage.jsx's heart layout.
     photos: [
-      { src: '/src/assets/placeholder-3.jpg', alt: 'Sharing noodles together' }, // a
-      { src: '/src/assets/placeholder-4.jpg', alt: 'A quiet moment out at night' }, // b
-      { src: '/src/assets/placeholder-5.jpg', alt: 'Street food adventure' }, // c
-      { src: '/src/assets/placeholder-6.jpg', alt: 'A day out exploring the city' }, // d (tall, spans 2 rows)
-      { src: '/src/assets/placeholder-7.jpg', alt: 'Silly matching faces' }, // e
-      { src: '/src/assets/placeholder-8.jpg', alt: 'A playful moment together' }, // f
-      { src: '/src/assets/placeholder-9.jpg', alt: 'A cat cameo' }, // g
-      { src: '/src/assets/placeholder-10.jpg', alt: 'Face masks and giggles' }, // h
-      { src: '/src/assets/placeholder-11.jpg', alt: 'A costume moment' }, // i
-     { src: '/src/assets/placeholder-12.jpg', alt: 'A costume moment' }, // i
-     { src: '/src/assets/placeholder-13.jpg', alt: 'A costume moment' }, // i
-     { src: '/src/assets/placeholder-14.jpg', alt: 'A costume moment' }, // i
+      { src: img3, alt: 'Sharing noodles together' }, // a
+      { src: img4, alt: 'A quiet moment out at night' }, // b
+      { src: img5, alt: 'Street food adventure' }, // c
+      { src: img6, alt: 'A day out exploring the city' }, // d (tall, spans 2 rows)
+      { src: img7, alt: 'Silly matching faces' }, // e
+      { src: img8, alt: 'A playful moment together' }, // f
+      { src: img9, alt: 'A cat cameo' }, // g
+      { src: img10, alt: 'Face masks and giggles' }, // h
+      { src: img11, alt: 'A costume moment' }, // i
+      { src: img12, alt: 'A costume moment' }, // i
+      { src: img13, alt: 'A costume moment' }, // i
+      { src: img14, alt: 'A costume moment' }, // i
     ],
     nextLabel: 'Next',
   },
@@ -108,8 +126,8 @@ const clientConfig = {
   // ---------------------------------------------------------------
   finale: {
     images: [
-      { src: '/src/assets/placeholder-15.jpg', alt: 'A cozy café memory' },
-      { src: '/src/assets/placeholder-16.jpg', alt: 'A close, happy moment' },
+      { src: img15, alt: 'A cozy café memory' },
+      { src: img16, alt: 'A close, happy moment' },
     ],
     heading: 'Happy',
     headingScript: 'Birthday',
