@@ -11,22 +11,22 @@
  */
 
 // --- استدعاء الصور هنا في بداية الملف ---
-import img1 from './assets/placeholder-1.jpg';
-import img2 from './assets/placeholder-2.jpg';
-import img3 from './assets/placeholder-3.jpg';
-import img4 from './assets/placeholder-4.jpg';
-import img5 from './assets/placeholder-5.jpg';
-import img6 from './assets/placeholder-6.jpg';
-import img7 from './assets/placeholder-7.jpg';
-import img8 from './assets/placeholder-8.jpg';
-import img9 from './assets/placeholder-9.jpg';
-import img10 from './assets/placeholder-10.jpg';
-import img11 from './assets/placeholder-11.jpg';
-import img12 from './assets/placeholder-12.jpg';
-import img13 from './assets/placeholder-13.jpg';
-import img14 from './assets/placeholder-14.jpg';
-import img15 from './assets/placeholder-15.jpg';
-import img16 from './assets/placeholder-16.jpg';
+import img1 from '../assets/placeholder-1.jpg';
+import img2 from '../assets/placeholder-2.jpg';
+import img3 from '../assets/placeholder-3.jpg';
+import img4 from '../assets/placeholder-4.jpg';
+import img5 from '../assets/placeholder-5.jpg';
+import img6 from '../assets/placeholder-6.jpg';
+import img7 from '../assets/placeholder-7.jpg';
+import img8 from '../assets/placeholder-8.jpg';
+import img9 from '../assets/placeholder-9.jpg';
+import img10 from '../assets/placeholder-10.jpg';
+import img11 from '../assets/placeholder-11.jpg';
+import img12 from '../assets/placeholder-12.jpg';
+import img13 from '../assets/placeholder-13.jpg';
+import img14 from '../assets/placeholder-14.jpg';
+import img15 from '../assets/placeholder-15.jpg';
+import img16 from '../assets/placeholder-16.jpg';
 
 const clientConfig = {
   // ---------------------------------------------------------------
