@@ -34,6 +34,13 @@ npm run build
 npm run preview
 ```
 
+## Deploying to GitHub Pages
+
+Pushing to the `main` branch builds and deploys the site with GitHub Actions.
+In the repository settings, set **Pages → Build and deployment → Source** to
+**GitHub Actions**. The site will be available at
+`https://ayahmohamed1.github.io/envolpe/`.
+
 ## 2. Project structure
 
 ```
